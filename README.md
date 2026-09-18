@@ -1,202 +1,149 @@
-# Project-1
-# SE_Project Big Data B1
+# 🏠 BunkBuddy
 
-### All package dependencies -
-  "@fortawesome/fontawesome-svg-core": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@react-google-maps/api": "^2.20.6",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^12.6.3",
-    "leaflet": "^1.9.4",
-    "lucide-react": "^0.488.0",
-    "motion": "^12.4.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-leaflet": "^5.0.0",
-    "react-router-dom": "^7.5.0",
-    "react-scripts": "5.0.1",
-    "styled-components": "^6.1.16",
-    "web-vitals": "^2.1.4"
-    
-### Steps to execute the project-
-1. Getting Started with Create React App
-2. Go to the located project folder "01" in terminal by using the command 'cd ./01'
-3. Then run command 'npm start' in terminal
+**BunkBuddy** is a React-based hostel discovery and review platform designed to help students explore and evaluate accommodation options through a simple and interactive interface.
 
-### Tools or technologies used-
-1. HTML
-2. CSS
-3. JAVASCRIPT
-4. REACT
-5. GITHUB
-6. VERCEL (for deployment of project online)
+The project focuses on creating an intuitive frontend experience for searching hostels, viewing accommodation details, exploring locations, and navigating different sections of the platform.
 
-### Our project resolves- 
-The issue for those juniors or senior students are looking for the good hostel at the unknown place according to their reviews and facilities.
+---
 
-### Key features and functionalities-
-1. User Authentication System-
+## ✨ Features
 
-a. Login/Register with form validation
+- 🔍 Hostel search interface
+- 🏠 Detailed hostel information pages
+- 🗺️ Map and location integration
+- 🔐 Login interface
+- 💬 Support section
+- 🧭 Client-side navigation
+- 📱 Responsive user interface
+- ✨ Interactive UI animations
 
-b. Password Recovery flow
+---
 
-c. Animated transitions between auth states
+## 🛠️ Tech Stack
 
-d. Responsive design with interactive form elements
+| Technology | Purpose |
+|---|---|
+| React JS | Frontend development |
+| JavaScript | Application logic |
+| React Router | Client-side navigation |
+| Leaflet | Interactive maps |
+| React Leaflet | Leaflet integration with React |
+| Google Maps API | Location and map functionality |
+| Framer Motion | UI animations |
+| Styled Components | Component styling |
+| Font Awesome | Icons |
 
+---
 
-2. Hostel Discovery & Search-
+## 📂 Project Structure
 
-a. Auto-scrolling hostel showcase with pause-on-hover
+```text
+BunkBuddy/
+│
+└── 01/
+    ├── public/
+    │   └── assets/
+    │
+    ├── src/
+    │   ├── Components/
+    │   │   ├── Footer/
+    │   │   ├── HostelDetails/
+    │   │   ├── Login/
+    │   │   ├── Search/
+    │   │   └── Support/
+    │   │
+    │   ├── App.js
+    │   ├── App.css
+    │   ├── index.js
+    │   └── questions.json
+    │
+    ├── package.json
+    └── package-lock.json
+```
 
-b. Swipeable cards (touch/mouse support)
+---
 
-c. Detailed hostel cards showing:
+## ⚙️ Installation
 
-d. High-quality images
+### 1. Clone the repository
 
-e. Facilities (WiFi, AC, Laundry, etc.)
+```bash
+git clone https://github.com/Bhavishya289/BunkBuddy.git
+```
 
-f. Ratings (to be integrated with backend)
+### 2. Open the React project
 
-g. Search functionality in navbar
+```bash
+cd BunkBuddy/01
+```
 
+### 3. Install dependencies
 
-3. Interactive UI Components-
+```bash
+npm install
+```
 
-a. Animated navbar that reacts to scroll
+### 4. Start the development server
 
-b. Framer Motion animations throughout:
+```bash
+npm start
+```
 
-c. Card hover effects
+The application should open at:
 
-d. Page transitions
+```text
+http://localhost:3000
+```
 
-e. Micro-interactions
+---
 
-f. Responsive design for all devices
+## 🧩 Main Components
 
+### 🔍 Search
 
-4. Hostel Details Page-
+Provides the interface for discovering and searching hostel options.
 
-a. Dedicated view for each hostel
+### 🏠 Hostel Details
 
-b. Display all relevant information
+Displays detailed information about selected accommodation.
 
-c. Future: Review submission system
+### 🔐 Login
 
+Provides the user login interface.
 
-5. Support System-
+### 💬 Support
 
-a. Contact form with submission feedback
+Provides a dedicated support section for users.
 
+### 🗺️ Maps
 
-6. Special Effects-
+Mapping libraries including **Leaflet, React Leaflet, and Google Maps** are used for location-based functionality.
 
-a. Floating background bubbles
+---
 
-b. Typography animations ("Top Rated Hostels")
+## 🚧 Project Status
 
-c. Smooth scrolling behaviors
+BunkBuddy currently focuses on the **frontend experience**. Backend services, persistent user authentication, and database integration can be added in future versions.
 
-### Target users and needs-
-Target Users:
+---
 
-1. Students (especially freshers & international students) needing verified hostel info
+## 🔮 Future Improvements
 
-2. Parents researching safe accommodations
+- Backend API using Node.js and Express
+- Database integration
+- Persistent user authentication
+- User-generated hostel reviews and ratings
+- Advanced hostel filtering
+- Favorites and saved hostels
+- Deployment for public access
 
-3. Hostel owners (future scope for listings)
+---
 
-Key Needs:
-✔ Trustworthy reviews
-✔ Easy comparison of facilities
-✔ Mobile-friendly access
+## 👨‍💻 Author
 
-### SDLC model-
-Agile Model
+**Bhavishya Singh Masand**
 
-### Approach-
-1. Gather Needs
-a. Student interviews -> "Need trustworthy hostel photos & reviews"
+B.Tech CSE (Hons.) in Big Data  
+UPES, Dehradun
 
-b. Competitor gaps -> Added swipeable cards & facility filters
-
-2. Validate Fast
-a. Paper prototypes -> Figma → Functional React demos
-
-b. Tested with 20+ students (iterated on search/UI pain points)
-
-3. Build Measurably
-a. Prioritized frontend MVP (proved UX before backend)
-
-b. Used mock data for demo-ready validation
-
-REQUIREMENTS----
-
-### testing method-
-1. Manual Testing-
-Component & integration checks (React)
-
-UI/UX (responsiveness, animations, accessibility)
-
-2. User Feedback-
-Peer reviews & hallway testing
-
-### Challenges & Fixes-
-
-1. Animation Lag -> Simplified Framer Motion + CSS optimizations.
-
-2. Mobile Bugs -> Swipe thresholds + max-width: 100%.
-
-3. Mock Data -> Structured JSON + simulated API delays.
-
-4. Auth Errors -> Regex + clear validation messages.
-
-5. State Chaos -> React Context + modular components.
-
-Result: Smoother UI, scalable code. 
-
-### Deployment-
-1. Push to GitHub
-   
-Commands to type in terminal
-- git remote add origin "repository-url"
-- git push -u origin main
-  
-2. Deploy on Vercel
-
--Sign in to Vercel -> "Import Project"-> Link GitHub repo
-
--Keep default settings (Vercel auto-detects React)
-
--Click on Deploy
-
-3. Done!
-
--Vercel auto-deploys on git push
-
--Live URL provided instantly
-
-### Future Enhancements-
-
-1. Backend Integration -> Real user reviews & bookings
-
-2. AI Chatbot -> Hostel recommendations
-
-3. Maps -> Location-based hostel search
-
-4. Admin Panel -> For hostel owners
-
-5. Mobile App -> React Native version
-
-### Our team members-
-1. Bhavishya Singh Masand - I handle all the css,javascript and react part of the website with some good user interfaces of the website.
-2. Harshit Singh Rautela - I handle documentation,SRS,basic HTML,provide resources and did research.
-3. Vansh Shishodia - I handle all UI/UX design part and basic CSS.
+[LinkedIn](https://www.linkedin.com/in/bhavishya-singh-masand-2874b022b)

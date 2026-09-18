@@ -6,6 +6,22 @@ The project focuses on creating an intuitive frontend experience for searching h
 
 ---
 
+## 🖥️ Application Preview
+
+### 🏠 Home Page
+
+![BunkBuddy Home](bunkbuddy-home.png)
+
+### 🔍 Hostel Search
+
+![BunkBuddy Search](bunkbuddy-search.png)
+
+### 🛏️ Hostel Details
+
+![BunkBuddy Hostel Details](bunkbuddy-details.png)
+
+---
+
 ## ✨ Features
 
 - 🔍 Hostel search interface

@@ -6,6 +6,10 @@ The project focuses on creating an intuitive frontend experience for searching h
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Try BunkBuddy Live](https://bunk-buddy-nu.vercel.app/)
+
 ## 🖥️ Application Preview
 
 ### 🏠 Home Page

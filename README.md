@@ -32,6 +32,10 @@ The project focuses on creating an intuitive frontend experience for searching h
 - 🧭 Client-side navigation
 - 📱 Responsive user interface
 - ✨ Interactive UI animations
+- ⭐ Hostel rating and review interface
+- 🛏️ Hostel facilities and accommodation details
+- 📩 Enquiry functionality
+- 📍 Location section for hostel information
 
 ---
 

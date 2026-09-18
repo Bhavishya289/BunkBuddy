@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import "./Footer.css";
 
 const Footer = () => {
@@ -51,10 +51,10 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3>Support</h3>
-            <a href="#" className="nav-link">Help Center</a>
-            <a href="#" className="nav-link">Safety Information</a>
-            <a href="#" className="nav-link">Cancellation Options</a>
-            <a href="#" className="nav-link">Report an Issue</a>
+            <button type="button" className="nav-link">Help Center</button>
+            <button type="button" className="nav-link">Safety Information</button>
+            <button type="button" className="nav-link">Cancellation Options</button>
+            <button type="button" className="nav-link">Report an Issue</button>
           </motion.div>
 
           <motion.div 
@@ -65,10 +65,10 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3>Legal</h3>
-            <a href="#" className="nav-link">Privacy Policy</a>
-            <a href="#" className="nav-link">Terms of Service</a>
-            <a href="#" className="nav-link">Cookie Policy</a>
-            <a href="#" className="nav-link">Accessibility</a>
+            <button type="button" className="nav-link">Privacy Policy</button>
+            <button type="button" className="nav-link">Terms of Service</button>
+            <button type="button" className="nav-link">Cookie Policy</button>
+            <button type="button" className="nav-link">Accessibility</button>
           </motion.div>
 
           <motion.div 
@@ -79,10 +79,10 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3>Hostel Owners</h3>
-            <a href="#" className="nav-link">List Your Property</a>
-            <a href="#" className="nav-link">Host Resources</a>
-            <a href="#" className="nav-link">Community Forum</a>
-            <a href="#" className="nav-link">Hosting Tips</a>
+            <button type="button" className="nav-link">List Your Property</button>
+            <button type="button" className="nav-link">Host Resources</button>
+            <button type="button" className="nav-link">Community Forum</button>
+            <button type="button" className="nav-link">Hosting Tips</button>
           </motion.div>
         </div>
 
@@ -110,31 +110,7 @@ const Footer = () => {
 
         <div className="social-links">
           <motion.a
-            href="#"
-            className="social-icon_f"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-            <FaFacebookF size={20} />
-          </motion.a>
-          <motion.a
-            href="#"
-            className="social-icon_t"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <FaTwitter size={20} />
-          </motion.a>
-          <motion.a
-            href="#"
+            href="https://www.instagram.com/bhavishya__singh__/?hl=en"
             className="social-icon_i"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -146,7 +122,9 @@ const Footer = () => {
             <FaInstagram size={20} />
           </motion.a>
           <motion.a
-            href="#"
+            href="https://www.linkedin.com/in/bhavishya-singh-masand-2874b022b"
+            target="_blank"
+            rel="noopener noreferrer"
             className="social-icon_l"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -155,20 +133,8 @@ const Footer = () => {
             transition={{ duration: 0.3, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <FaLinkedinIn size={20} />
-          </motion.a>
-          <motion.a
-            href="#"
-            className="social-icon_w"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <FaWhatsapp size={20} />
-          </motion.a>
+              <FaLinkedinIn size={20} />
+            </motion.a>
         </div>
 
         <div className="copyright">
